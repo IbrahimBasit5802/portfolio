@@ -24,6 +24,7 @@ import {
     tripguide,
     threejs,
   } from "../assets";
+
   
   export const navLinks = [
     {
@@ -42,11 +43,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "App Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Flutter Developer",
       icon: mobile,
     },
     {
@@ -54,7 +55,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "C++ Developer",
       icon: creator,
     },
   ];
@@ -116,11 +117,11 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Android Developer Intern",
+      company_name: "SoloInsight",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "June 2017 - September 2017",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
