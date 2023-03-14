@@ -18,7 +18,6 @@ import nodejs from "./tech/nodejs.png";
 
 
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 export {
   logo,
@@ -39,5 +38,4 @@ export {
   nodejs,
 
   jobit,
-  tripguide,
 };
