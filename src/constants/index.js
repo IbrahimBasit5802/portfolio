@@ -4,27 +4,26 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+
     html,
     css,
-    reactjs,
-    redux,
-    tailwind,
+
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
     jobit,
     tripguide,
-    threejs,
+
+
   } from "../assets";
 
+  import soloinsight from "../assets/company/soloinsight.png";
+  import pos from "../assets/pos.png";
+
+  import flutter from "../assets/tech/flutter.png";
+  import cpp from "../assets/tech/c++.png";
+  import python from "../assets/tech/python.png";
   
   export const navLinks = [
     {
@@ -34,6 +33,14 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "projects",
+      title: "Projects",
+    },
+    {
+      id: "recommendations",
+      title: "Recommendations",
     },
     {
       id: "contact",
@@ -61,6 +68,16 @@ import {
   ];
   
   const technologies = [
+
+    {
+      name: "C++",
+      icon: cpp,
+    },
+
+    {
+      name: "Python",
+      icon: python,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -74,20 +91,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Flutter",
+      icon: flutter,
     },
     {
       name: "Node JS",
@@ -97,18 +102,12 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+
     {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
+
     {
       name: "docker",
       icon: docker,
@@ -117,94 +116,42 @@ import {
   
   const experiences = [
     {
-      title: "Android Developer Intern",
+      title: "Android Developer and Networking Intern",
       company_name: "SoloInsight",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: soloinsight,
+      iconBg: "#FFFFFF",
       date: "June 2017 - September 2017",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Maintaining Cloud Gate application.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Hands on experience with Android SDK, Android Studio, and Android Emulators.",
+        "Setting up servers, apache and active directory domain controllers.",
       ],
     },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Ibrahim has served the Google Developer Student Clubs - FAST Islamabad as the Head of App Developers, in the Technicals department. A budding talent Ibrahim, stood out as the best member of the team with his everlasting spirit of peer-to-peer learning that lead to his team organizing an insightful bootcamp on Flutter.", 
+
+      name: "Maaz Ali Nadeem",
+      designation: "President",
+      company: "ADSOC",
+      image: "https://media.licdn.com/dms/image/D4D03AQE1--q_yOXSVA/profile-displayphoto-shrink_800_800/0/1666282202684?e=1684368000&v=beta&t=8PKrIW625rlwj7WjOeCURIqlw9GFdG13r8uvV57K6Ic",
     },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Arabian Nights POS",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "App-based platform that allows managers, chefs, and waiters to perform their jobs effectively and with ease. Each with their own separate view to run a cafe business smoothly.",
       tags: [
         {
-          name: "react",
+          name: "flutter",
           color: "blue-text-gradient",
         },
         {
@@ -212,28 +159,32 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "nodeJS",
           color: "pink-text-gradient",
         },
+        {
+          name: "expressJS",
+          color: "blue-text-gradient",
+        }
       ],
-      image: carrent,
+      image: pos,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Vejiworld",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "E-Commerce Mobile application that enables users to place orders for groceries.",
       tags: [
         {
-          name: "react",
+          name: "java",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "native-android",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "firebase",
           color: "pink-text-gradient",
         },
       ],
