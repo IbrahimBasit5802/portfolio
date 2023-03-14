@@ -168,7 +168,7 @@ import {
         }
       ],
       image: pos,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/IbrahimBasit5802",
     },
     {
       name: "Vejiworld",
@@ -189,7 +189,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/IbrahimBasit5802",
     },
     {
       name: "Trip Guide",
@@ -210,7 +210,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/IbrahimBasit5802",
     },
   ];
   
