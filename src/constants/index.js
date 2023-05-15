@@ -13,13 +13,14 @@ import {
     git,
     docker,
     jobit,
+   
 
 
   } from "../assets";
 
   import soloinsight from "../assets/company/soloinsight.png";
   import pos from "../assets/pos.png";
-
+  import fac from "../assets/Faculty.png";
   import flutter from "../assets/tech/flutter.png";
   import cpp from "../assets/tech/c++.png";
   import python from "../assets/tech/python.png";
@@ -189,6 +190,31 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/IbrahimBasit5802",
+    },
+    {
+      name: "Flex",
+      description:
+        "An asp .net WebApp to manage a university's database system withseparate interfaces for administrators, faculty, and students.",
+      tags: [
+        {
+          name: "C#",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "asp .net",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sql server",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fac,
+      source_code_link: "https://github.com/Haider-29/Flex",
     },
   ];
   
