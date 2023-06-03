@@ -24,7 +24,10 @@ import {
   import flutter from "../assets/tech/flutter.png";
   import cpp from "../assets/tech/c++.png";
   import python from "../assets/tech/python.png";
-  
+
+  import neural from "../assets/neural.png";
+  import brick from "../assets/brick.png";
+  import lesion from "../assets/lesion.png";
   export const navLinks = [
     {
       id: "about",
@@ -171,20 +174,24 @@ import {
       source_code_link: "https://github.com/IbrahimBasit5802",
     },
     {
-      name: "Vejiworld",
+      name: "Property Guru",
       description:
-        "E-Commerce Mobile application that enables users to place orders for groceries.",
+        "A mobile application for in house management of real estate businesses.",
       tags: [
         {
-          name: "java",
+          name: "flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "native-android",
+          name: "nodeJS",
           color: "green-text-gradient",
         },
         {
-          name: "firebase",
+          name: "mongodb",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "expressJS",
           color: "pink-text-gradient",
         },
       ],
@@ -216,6 +223,67 @@ import {
       image: fac,
       source_code_link: "https://github.com/Haider-29/Flex",
     },
+    {
+      name: "Neural Network",
+      description:
+        "Implemented a neural network  using Operating System Concepts in C++. Used threads to paralleize the computations of the neural network. Weights and biases exchanged between processes through pipes.",
+      tags: [
+        {
+          name: "C++",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Threads",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Semaphores",
+          color: "pink-text-gradient",
+        },
+      ],
+     
+      image: neural,
+      source_code_link: "https://github.com/IbrahimBasit5802/neural-network",
+    },
+    {
+      name: "Brick Breaker",
+      description:
+        "Created the Brick Breaker game from scratch in asssembly using masm 8086 assembler.",
+      tags: [
+        {
+          name: "Assembly",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MASM8086",
+          color: "green-text-gradient",
+        },
+
+      ],
+     
+      image: brick,
+      source_code_link: "https://github.com/IbrahimBasit5802/BrickBreaker",
+    },
+    {
+      name: "Lesion Detection and Segmentation",
+      description:
+        "Used Connected Component Labeling algorithm to segment black-and-white lesion images. Implemented K-Means Clustering algorithm to categorize colored lesion images.",
+      tags: [
+        {
+          name: "C++",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "opencv2",
+          color: "green-text-gradient",
+        },
+
+      ],
+     
+      image: lesion,
+      source_code_link: "https://github.com/IbrahimBasit5802/LesionDetection",
+    },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };
