@@ -19,6 +19,7 @@ import {
   } from "../assets";
 
   import soloinsight from "../assets/company/soloinsight.png";
+  import datainsight from "../assets/company/datainsight.jpeg";
   import pos from "../assets/pos.png";
   import fac from "../assets/Faculty.png";
   import flutter from "../assets/tech/flutter.png";
@@ -118,6 +119,21 @@ import {
   ];
   
   const experiences = [
+
+    {
+      title: "Summer Intern",
+      company_name: "DataInsight",
+      icon: datainsight,
+      iconBg: "#FFFFFF",
+      date: "June 2023 - August 2023",
+      points: [
+        "Worked on the platform and pipeline for Digitizing Prescriptions in Pakistan.",
+        "Integrated fine-tuned YOLO model in Flutter using Flask RestApi.",
+        "Implemented database using MongoDB.",
+        "Worked with Flutter, NodeJS, Flask, and MongoDB.",
+      ],
+    },
+    
     {
       title: "Android Developer and Networking Intern",
       company_name: "SoloInsight",
@@ -131,6 +147,8 @@ import {
         "Setting up servers, apache and active directory domain controllers.",
       ],
     },
+
+
 
   ];
   
